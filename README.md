@@ -30,6 +30,31 @@ entradas = [
 
 O script irá gerar e imprimir a tabela HTML correspondente às entradas fornecidas.
 
+Exemplo resultado:
+```
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Posição</th>
+      <th>Data</th>
+      <th>Nome</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>30/10/2023</td>
+      <td>Luã Ornelas</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>30//10/2023</td>
+      <td>João Silva</td>
+    </tr>
+  </tbody>
+</table>
+```
+
 ## Requisitos
 
 - Python 3.x
