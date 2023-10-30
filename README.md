@@ -10,7 +10,8 @@ A extração das partes de cada linha de texto é realizada com o auxílio de ex
 
 ## Como Usar
 
-1. Usando o "Google Colab" no seu navegador, faça o download do script `conversor_de_tabelas_csv_para_html.py` e importe-o. Se preferir, clone o repositório para a sua máquina local.
+1. Usando o "Google Colab" no seu navegador, faça o download do script `conversor_de_tabelas_csv_para_html.py` e importe-o.
+    Se preferir, clone o repositório para a sua máquina local.
 2. Caso opte por local, certifique-se de que você tem o Python e o Pandas instalados. Você pode instalar o Pandas executando `pip install pandas`.
 3. Abra o script `conversor_de_tabelas_csv_para_html.py` em um editor de texto ou IDE de sua preferência.
 4. Insira as linhas de texto que você deseja converter em uma tabela HTML na lista `entradas`.
