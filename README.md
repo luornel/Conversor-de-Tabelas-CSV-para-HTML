@@ -1,10 +1,8 @@
 # Conversor de Texto para Tabela HTML
 
-Este repositório contém um script Python capaz de converter linhas de texto formatadas em uma tabela HTML. Cada linha de texto deve seguir o formato específico `"posição" "data" "nome"`, onde cada parte é envolta por aspas e separada por espaços.
-
 ## Como Funciona
 
-O script utiliza a biblioteca Pandas para manipulação de dados e geração da tabela HTML. Cada linha de texto é processada para extrair as informações de posição, data e nome, que são então armazenadas em um DataFrame do Pandas. Após processar todas as linhas de texto, o DataFrame é convertido em uma tabela HTML.
+O script utiliza a biblioteca Pandas para manipulação de dados e geração da tabela HTML. Cada linha de texto é processada para extrair as informações de posição, data e nome, que são então armazenadas em um DataFrame do Pandas. Após processar todas as linhas de texto, o DataFrame é convertido em uma tabela HTML. Também foi adicionado neste código um script para formatar a data (formato MM/DD/AAAA) pois ao converter um arquivo XLS para CSV, por padrão, a data é alterada.
 
 A extração das partes de cada linha de texto é realizada com o auxílio de expressões regulares, garantindo que o formato específico seja respeitado e que os dados sejam corretamente extraídos, mesmo que contenham espaços.
 
@@ -21,8 +19,8 @@ A extração das partes de cada linha de texto é realizada com o auxílio de ex
 
 ```python
 entradas = [
-    '"1" "30/10/2023" "Luã Ornelas"',
-    '"2" "30/10/2023" "João Silva"'
+    '"1" "10/31/2023" "Luã Ornelas"',
+    '"2" "10/31/2023" "João Silva"'
 ]
 ```
 
@@ -48,7 +46,7 @@ Exemplo resultado:
     </tr>
     <tr>
       <td>2</td>
-      <td>30//10/2023</td>
+      <td>30/10/2023</td>
       <td>João Silva</td>
     </tr>
   </tbody>
