@@ -17,8 +17,8 @@ O script utiliza a biblioteca Pandas para manipulação de dados e geração da 
 
 ```python
 entradas = [
-    '"1" "31/10/2023" "Luã Ornelas"',
-    '"2" "31/10/2023" "João Silva"'
+    '"1" "30/10/2023" "Luã Ornelas"',
+    '"2" "30/10/2023" "João Silva"'
 ]
 ```
 
