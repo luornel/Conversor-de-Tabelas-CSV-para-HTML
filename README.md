@@ -2,7 +2,7 @@
 
 ## Como Funciona
 
-O script utiliza a biblioteca Pandas para manipulação de dados e geração da tabela HTML. Cada linha de texto é processada para extrair as informações de posição, data e nome, que são então armazenadas em um DataFrame do Pandas. Após processar todas as linhas de texto, o DataFrame é convertido em uma tabela HTML. Também foi adicionado neste código um script para formatar a data (formato MM/DD/AAAA) pois ao converter um arquivo XLS para CSV, por padrão, a data é alterada.
+O script utiliza a biblioteca Pandas para manipulação de dados e geração da tabela HTML. Cada linha de texto é processada para extrair as informações de posição, data e nome, que são então armazenadas em um DataFrame do Pandas. Após processar todas as linhas de texto, o DataFrame é convertido em uma tabela HTML. Também foi adicionado neste código um script para formatar a data, pois ao converter um arquivo XLS para CSV, por padrão, o formato é alterado para de DD/MM/AAAA para MM/DD/AAAA.
 
 A extração das partes de cada linha de texto é realizada com o auxílio de expressões regulares, garantindo que o formato específico seja respeitado e que os dados sejam corretamente extraídos, mesmo que contenham espaços.
 
